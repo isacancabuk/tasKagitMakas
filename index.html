@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Taş Kağıt Makas</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="secim">
+          <button
+            id="button"
+            onclick="gameTime('tas')"
+          >
+            ✊</button
+          ><button
+            id="button"
+            onclick="gameTime('kagit')"
+          >
+            🤚</button
+          ><button
+            id="button"
+            onclick="gameTime('makas')"
+          >
+            ✌
+          </button>
+        </div>
+      </section>
+      <section class="result">
+        <div id="comChoice"></div>
+        <div id="gameResult"></div>
+        <div id="totalScore"></div>
+      </section>
+      <section>
+        <button
+          id="reset"
+          onclick="resetGame()"
+        >
+          🔴
+        </button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
